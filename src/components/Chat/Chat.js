@@ -83,7 +83,7 @@ const Chat = ({ location }) => {
 
 
     }
-    console.log(message,messages);
+   // console.log(message,messages);
     // i need another component that will display the users 
     return (
         <div className ="outerContainer">
