@@ -43,7 +43,7 @@ const Chat = ({ location }) => {
     const audio = useAudio(sound);
 
 
-    const ENDPOINT = 'http://adryan3.sytes.net:8006';
+    const ENDPOINT = 'https://munichamacachat.sytes.net:8006/';
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
