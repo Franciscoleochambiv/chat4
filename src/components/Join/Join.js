@@ -33,8 +33,7 @@ const Join = () => {
       }
     }
 
-if (paso) {
-   
+if (paso) {   
   history.push("/chat?name="+name+"&room="+room)
 }
 
